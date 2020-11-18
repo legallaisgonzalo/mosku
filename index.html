@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
   <!--Archivos bootstrap 4-->
   <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
   <!--Normalize css-->
@@ -87,7 +87,9 @@
             </li>
             <li class="nav-item mr-4">
               <a class="nav-link" href="#contactanos">Contactanos</a>
-            </li>
+            </li>             
+
+
           </ul>
         </div>
       </div>
@@ -98,24 +100,40 @@
           Barberia clásica y contemporánea
         </h4>
         <h1 class="text-uppercase title title-header m-0"> Moskú</h1>
-        <p>
-          <a href="#quienes" class="btn btn-vermas btn-primary my-2 p-2">Ver más</a>
-        </p>
+
+          <a href="https://api.whatsapp.com/send?phone=541123615163&text=Hola%20Nacho%2C%20quisiera%20un%20turno!" class="btn btn-vermas btn-primary my-2 p-2">Reservar un turno</a>
+
       </div>
     </section>
   </div>
 
+
+  
+
+
+
+
   <!--Section quienesSomos-->
-  <div id="quienes">
-    <div class="container">
-      <section class="quienesomos text-center">
+  <div class="quienes" id="quienes">
+    <div class="container">        
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">     
+
+          <section class="quienesomos text-center">
         <h3 class="text-uppercase titles">¿Quiénes somos?</h3>
-        <p class="text-secondary">¡Hola! Somos <b>MOSKÚ</b> una Barberia clásica y contemporánea ubicada en <b>Ramón
+        <p class="text-secondary">¡Hola! Somos <b>MOSKÚ</b> una barberia clásica y contemporánea ubicada en <b> Ramón
             Santamarína 1016, en la ciudad de Monte Grande</b>,
           conformada por dos amigos de toda la vida, <i>Enzo y Nacho.</i></p>
-        <div class="row">
+        </div>
+
+        <div class="maps col-12 col-sm-12 col-md-12 col-lg-6">
+          <iframe class="iframemaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.9572212394105!2d-58.47793458476433!3d-34.832168080400976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd14515965be7%3A0x42b68604a72db2ca!2sRam%C3%B3n%20Santamarina%201016%2C%20B1842%20Monte%20Grande%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1605724679736!5m2!1ses-419!2sar" width="500" height="650" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+          
+
           <div class="col-lg-6 mt-4 card-left">
-            <div class="card ">
+            <div class="card">
               <div class="card-body">
                 <img src="images/enzo.jpg" alt="Person One" class="img-fluid rounded-circle w-50" loading="lazy">
                 <h3 class="title-card">Enzo Moren</h3>
@@ -130,7 +148,7 @@
             </div>
           </div>
           <div class="col-lg-6 mt-4 card-rigth">
-            <div class="card ">
+            <div class="card">
               <div class="card-body">
                 <img src="images/nacho.jpg" alt="Person One" class="img-fluid rounded-circle w-50" loading="lazy">
                 <h3 class="title-card">Nacho Méndez</h3>
@@ -147,10 +165,30 @@
     </div>
   </div>
 
+  <div class="ig card-rigth container-fluid">
+    <div class="row"> 
+
+      <div class="card-rigth col-12 col-sm-12 col-md-12 col-lg-6">
+        <h4>
+          <iframe src="https://www.instagram.com/p/CDMbVqrp-UK/embed" width="300" height="380" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+        </h4>
+        </div>
+
+      <div class="card-left ig col-12 col-sm-12 col-md-12 col-lg-6">
+      <h4 class="text-secondary" >Tambien podes seguirnos nuestro instagram donde siempre subimos los disintos estilos y colores que 
+        hacemos
+      </h4>
+      </div>
+
+    </div>
+
+  </div>
+
+
 
   <div class="contactanos" id="contactanos">
 
-        <h3 class="text-uppercase titles">¡Saca turnos!</h3>
+        <h3 class="text-uppercase titles">¡Reserva tu turno!</h3>
           <h4 class="text-secondary ">Consultanos por un turno haciendo click en el icono de <b>whatsapp</b></h4>
           
     <div class="container">
@@ -180,7 +218,7 @@
 
   <!--Section footer-->
   <footer id="section-footer" class="text-center d-flex justify-content-center align-items-center">
-    <h5 class="text-footer">Realizado por <a href="https://github.com/matijpg">Mago code<i class="fab fa-github"></i></a>
+    <h5 class="text-footer">Realizado por <a href="https://www.instagram.com/mago.code/">Mago code <i class="fab fa-instagram"></i></a>
     </h5>
   </footer>
   <!--Archivo JQuery-->

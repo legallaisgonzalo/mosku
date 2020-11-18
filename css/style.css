@@ -339,10 +339,69 @@ footer.footer-area .social a:hover > i {
 }
 
 /* End Footer */
-.contactanos,.section-mosku{
+.contactanos{
   display: flex;
   text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
+.quienes{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.section-mosku{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-danger{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.btn-danger:hover{
+  text-decoration: none;
+}
+.ig{
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary{
+  color: white;
+  border-color: white;
+}
+
+.maps{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.iframemaps{
+  max-width: 80%;
+  height: auto;
+  min-height: 200px;
+ }

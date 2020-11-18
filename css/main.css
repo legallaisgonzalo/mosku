@@ -60,10 +60,10 @@ html {
 }
 
 .btn-primary {
-  border-color: #a8083e;
+  border-color: #ffffff;
   background-color: transparent;
   transition: background-color 1s;
-  color: #a8083e;
+  color: #ffffff;
   width: 300px;
 }
 
@@ -99,6 +99,10 @@ html {
   transition: transform 1s;
 }
 
+.insta{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
 .card-body img {
   filter: grayscale();
   transition: filter 1s;
